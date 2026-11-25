@@ -1,0 +1,17 @@
+<resources>
+    <!-- OLED-black shell matching the 14 supplied SVG screens. -->
+    <style name="Theme.ELVO" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/elvo_rose</item>
+        <item name="colorPrimaryVariant">@color/elvo_rose</item>
+        <item name="colorOnPrimary">@color/elvo_black</item>
+        <item name="colorSecondary">@color/elvo_rose</item>
+        <item name="colorSecondaryVariant">@color/elvo_rose</item>
+        <item name="colorOnSecondary">@color/elvo_black</item>
+        <item name="android:windowBackground">@color/elvo_black</item>
+        <item name="android:statusBarColor">@color/elvo_black</item>
+        <item name="android:navigationBarColor">@color/elvo_black</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:forceDarkAllowed">false</item>
+    </style>
+</resources>
