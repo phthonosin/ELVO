@@ -11,5 +11,7 @@
 /build
 /captures
 .externalNativeBuild
+.mp4
+.apk
 .cxx
 local.properties
